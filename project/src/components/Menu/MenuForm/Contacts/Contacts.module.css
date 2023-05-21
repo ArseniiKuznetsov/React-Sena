@@ -1,0 +1,52 @@
+.wrapperContacts{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    max-width: 397px;
+    width: 100%;
+    border-radius: 32px;
+}
+
+.wrapperContactsTitle{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.ContactsTitle{
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B6EB9;
+}
+
+.ContactsTitlePhone{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #353535;
+    margin-bottom: 15px;
+}
+
+.ContactsTextPhone{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #535353;
+}
+
+.ContactsTextEmail{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+
+}
+
+.wrapperContactsPhoneEmail{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}

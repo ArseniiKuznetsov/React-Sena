@@ -1,0 +1,44 @@
+.wrapperVacancy{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 24px 20px;
+    width: 100%;
+    border-radius: 32px;
+}
+
+.vacancy{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B6EB9;
+    margin: 0 0 11px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.wrapperPositionStats{
+    display: flex;
+    box-sizing: border-box;
+    padding: 34px 20px 0 20px;
+}
+
+.wrapperStatsTitle{
+    max-width: 225px;
+    width: 100%;
+}
+
+.statsTitle{
+    color: #353535;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.statsText{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}

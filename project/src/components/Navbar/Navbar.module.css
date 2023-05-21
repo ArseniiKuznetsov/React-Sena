@@ -1,0 +1,94 @@
+.wrapperNavbarPosition{
+    background-color: #fff;
+    padding: 38px 29px 0 203px;
+}
+
+.wrapperProfile{
+    max-width: 337px;
+    width: 100%;
+    margin: 40px 0 0;
+    padding: 18px 0 23px;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+
+.wrapperProfileInitials{
+    width: 173px;
+    height: 173px;
+    margin: 0 auto 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileInitials{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 55px;
+    z-index: 0;
+    position: relative;
+}
+
+.profileInitials:after{
+    content:'';
+    position: absolute;
+    width: 157px;
+    top: -51px;
+    left: -49px;
+    z-index: -1;
+    height: 157px;
+    border-radius: 79px;
+    background: #000000;
+}
+.profileInitials:before{
+    content:'';
+    position: absolute;
+    width: 173px;
+    top: -59px;
+    left: -57px;
+    z-index: -1;
+    height: 173px;
+    border-radius: 207px;
+    background: transparent;
+    border: 5px solid #4B6EB9;
+    box-sizing: border-box;
+}
+
+.profileName{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.profilePost{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 11px;
+}
+
+.profileProfession{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.wrapperGraphPercentages{
+    max-width: 277px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.GraphPercentagesText{
+    max-width: 173px;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}

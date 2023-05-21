@@ -1,0 +1,11 @@
+.wrapperMenuForm{
+    max-width: 967px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapperPersonalContacts{
+    display: flex;
+    margin: 40px 0 0;
+    justify-content: space-between;
+}

@@ -1,0 +1,56 @@
+.wrapperPersonalData{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 24px 20px;
+    max-width: 530px;
+    width: 100%;
+    border-radius: 32px;
+}
+
+.wrapperPersonalDataTitle{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.personalDataTitle{
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B6EB9;
+}
+
+.namesItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wrapperNames{
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-top: 36px;
+}
+
+.wrapperItemsNames{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sFormTitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #353535;
+    margin-right: 20px;
+}
+
+.sFormText{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+

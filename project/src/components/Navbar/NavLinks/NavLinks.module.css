@@ -1,0 +1,26 @@
+.ListNavbarLinks{
+    margin: 45px 0 0;
+}
+
+.wrapperNavLinks{
+    max-width: 300px;
+    width:100%;
+    display: flex;
+    margin: 0 0 60px;
+}
+
+.wrapperNavLinks:active{
+    opacity: 0.5;
+}
+
+.navIcon{
+    margin-right: 20px;
+}
+
+.navLink{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #535353;
+    text-decoration: none;
+}

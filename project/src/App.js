@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+ import Navbar from "./components/Navbar/Navbar";
+import Menu from "./components/Menu/Menu";
+import classes from "./App.module.css";
+ import {Route, Routes} from "react-router";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className={classes.wrapperPositionBlocks}>
+            <div className={classes.positionBlocks}>
+                <Navbar/>
+                    <Routes>
+                        <Route path='/' element={<Menu/>}/>
+                        <Route path='/document' element={<div className={classes.pages}>Document</div>}/>
+                        <Route path='/about' element={<div className={classes.pages}>About</div>}/>
+                        <Route path='/applications' element={<div className={classes.pages}>Applications</div>}/>
+                        <Route path='*' element={<div className={classes.pages}>Not found</div>}/>
+                    </Routes>
+            </div>
+        </div>
+    );
 }
 
 export default App;
